@@ -2,7 +2,7 @@
   <head><title>Web Guesser</title></head>
   <body>
     <p>
-      The SECRET NUMBER is...<%= number %>
+      The SECRET NUMBER is...<%= SECRET_NUMBER %>
     </p>
     <p>But your guess was... <%= params["guess"] %></p>
     <form>
@@ -10,7 +10,7 @@
   		<input type='submit' value='Guess!' />
     </form>
     <p>
-		 
+	<%= message %>	 
     </p>
   </body>
 </html>
